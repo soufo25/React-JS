@@ -1,18 +1,18 @@
-import React from "react";
+import React, { Children } from "react";
 import "./App.css";
-import NavbarComp from './Components/NavbarComp';
+import Profile from "./Components/Profile";
+
+
 
 function App() {
   return (
     <div className ="App">
-      <NavbarComp />
-      <h1>Hello world</h1>
-      <p>Welcome to your favorite Coffee  Shop</p>
-      <h6>Enjoy Your drink</h6>
+      <Profile />
+      
     
     </div>
     
   );
-}
+};
 
 export default App;
